@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Main Branch Stage') {
             steps {
-                echo "This is the MAIN branch build."
-                echo "Executing main branch pipeline..."
+                bat 'echo This is the MAIN branch build.'
+                bat 'echo Executing main branch pipeline...'
             }
         }
     }
